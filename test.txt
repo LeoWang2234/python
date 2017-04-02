@@ -1,0 +1,2 @@
+ver=1.0&soa=%7B%27req%27%3A+%2712345%27%2C+%27rpc%27%3A+%271.4.5.2%27%7D&iface=me.ele.napos.payservice.srv.spark.descriptor.service.TaskService&method=checkAndSync&args=%7B%27shopIds%27%3A+%27%5B2087341%5D%27%2C+%27flag%27%3A+%27true%27%7D&metas=%7B%7D
+
