@@ -20,10 +20,12 @@ def Schedule(a,b,c):
 
 
 
-for pageNum in [22]:
+for pageNum in [53]:
     url = 'http://oc.xjtu.edu.cn:80/upload/77/'+ str(pageNum) +'.flv'
+    # url = "http://oc.xjtu.edu.cn:80/conver/flv/vod2/gkk/fengboqin1-1.flv"
     print(url)
     local = url.split('/')[-1]
     local = os.path.join('/Users/leo/Desktop/course_video',local)
+
     urllib.request.urlretrieve(url,local,Schedule)
 
